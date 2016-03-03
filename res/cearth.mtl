@@ -1,0 +1,36 @@
+# Blender MTL File: 'Realistic_earth.blend'
+# Material Count: 3
+
+newmtl Clouds
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd Textures\\Clouds.png
+map_d Textures\\Clouds.png
+
+newmtl Day
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump C:\\Design\\Blender Guru\\Earth\\srtm_ramp2.world.21600x10800.jpg
+map_Kd Textures\\Color Map.jpg
+
+newmtl Fresnel
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.266140 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.250000
+illum 1
